@@ -15,10 +15,10 @@
 
 task main()
 {
-	untilBump(bumpswitch);
-	startMotor(rightmotor, 63);
-	wait(5);
-	stopMotor(rightmotor);
+	untilBump(bumpswitch);		//activate bumpswitch
+	startMotor(rightmotor, 63);	//Start Right Motor
+	wait(5);			//Wait 5 seconds
+	stopMotor(rightmotor);		//Stop Right Motor
 
 
 }
