@@ -1,1 +1,10 @@
 
+untilBump(bumpSwitch);
+startMotor(rightMotor, 63);
+startMotor(lefttMotor, 63);
+untilBump(bumpSwitch);
+startMotor(rightMotor, -63);
+startMotor(lefttMotor, -63);
+wait(3.5);
+stopMotor(rightMotor);
+stopMotor(leftMotor);
