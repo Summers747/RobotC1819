@@ -22,3 +22,6 @@ task main()
 	wait(3.5);
 	stopMotor(leftMotor);
 }
+// Turn on LED
+// When the potentiometer reads 2048,turn off LED
+// Turn on the left motor at half speed for 3.5 sec
