@@ -14,15 +14,15 @@
 
 task main()
 {
-	untilBump(bumpswitch);
-	startMotor(rightmotor, 63); 
-	startMotor(leftmotor, 63);
-	untilBump(bumpswitch);
-	startMotor(rightmotor, -63);
-	startMotor(leftmotor, -63);
-	wait(3.5);
-	stopMotor(rightmotor);
-	stopMotor(leftmotor);
+	untilBump(bumpswitch);       //hit bumpswitch
+	startMotor(rightmotor, 63);  //right motor to 63
+	startMotor(leftmotor, 63);   // left motor to 63
+	untilBump(bumpswitch);      // hit bumpswitch
+	startMotor(rightmotor, -63); // turn right motor ccw
+	startMotor(leftmotor, -63);   // turn left motor ccw
+	wait(3.5);                   // wait 5 seconds
+	stopMotor(rightmotor);        // stop rightmotor
+	stopMotor(leftmotor);         // stop leftmotor
 
 
 
